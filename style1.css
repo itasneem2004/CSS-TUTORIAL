@@ -1,0 +1,24 @@
+body {
+    background-image: url(image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1{
+    color: darkgreen;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    
+}
+
+.para2{
+    color: crimson;
+    font-weight: 900;
+    text-decoration: overline;
+}
+
+.para3{
+    color: mediumvioletred;
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
