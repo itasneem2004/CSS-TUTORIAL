@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+ 
 
 .para1{
     color: darkgreen;
@@ -21,4 +22,74 @@ body {
     color: mediumvioletred;
     text-transform: lowercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.spacing {
+    word-spacing: 65px;
+    line-height: 70px;
+    letter-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.text-align {
+    text-align: left;
+    letter-spacing: 35px;
+}
+
+.text-color {
+    font-size: 50px;
+    letter-spacing:25px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.ordered-listing {
+    font-size: 50px;
+    list-style-type: lower-alpha;
+    list-style: outside;
+}
+
+.unordered-listing {
+    font-size: 50px;
+    list-style: georgian;
+    list-style: inside;
+}
+
+.list {
+    list-style-type: georgian;
+    font-size: 25px;
+}
+
+div.bg-color {
+    background-color:aqua;
+}
+
+div.first {
+    opacity: 0.1;
+}
+div.second {
+    opacity: 0.3;
+}
+
+div.third {
+    opacity: 0.6;
+}
+
+.border-property {
+    border-radius: 5px;
+    border-color: darkcyan;
+    border-style: dashed;
+    
+}
+
+.padding-margin {
+    border: 5px purple dashed;
+    margin: 20px 45px 30px 15px;
+}
+
+.padding-margin{
+    border-style: dashed;
+    border-color: chartreuse;
+    padding: 50px 80px 30px 25px;
 }
